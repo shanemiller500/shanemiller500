@@ -1,0 +1,2 @@
+class ShanesController < ApplicationController
+end
