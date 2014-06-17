@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+ #myDiv { 
+  height: 483px;
+width: 583px;
+  overflow: scroll;
+}
+
+.hope {
+  margin-bottom: 40px;
+}
