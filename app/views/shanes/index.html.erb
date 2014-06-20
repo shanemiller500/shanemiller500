@@ -22,11 +22,9 @@
         <div class="row">
           <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center"> 
 
-            <!-- Site Title, your name, HELLO msg, etc. -->
             <h1 class="title">Shane Miller</h1>
             <h2 class="subtitle">Welcome </h2>
 
-            <!-- Short introductory (optional) -->
 
           </div> <!-- /col -->
         </div> <!-- /row -->
@@ -86,7 +84,6 @@
       <p class="lead text-center">
       Here are a few projects I have made during the past few months in the WDI 12 week cohort I attended.
       </p>
-      <div class="myDiv">
         <div class="row">
           <div class="col-sm-4 col-sm-offset-2">
             <div class="thumbnail">
@@ -103,7 +100,7 @@
             <div class="thumbnail">
               <div  class="caption">
                 <h3 >Movie App</h3>
-                <p id="est">This movie app uses Sinatra framework with Ruby, I used the OMDB API for the request therefore you can look up any movie you desire.  Unfortunately, images from the OMDB API are not permitted to show on Heroku, where this app is currently hosted. </p>
+                <p>This movie app uses Sinatra framework with Ruby, I used the OMDB API for the request therefore you can look up any movie you desire.  Unfortunately, images from the OMDB API are not permitted to show on Heroku, where this app is currently hosted. </p>
                 <p> <a href="http://shanesmovieapp.herokuapp.com/" class="btn btn-default" role="button">Check out the Movie app</a> <br><a href="https://github.com/shanemiller500/Sinatra-Movie-App-Part-Deux-Mini-Project" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></p>
               </div>
             </div>
@@ -122,7 +119,7 @@
               <div class="caption">
                 <h3>My blog app</h3>
                 <p>I made this rails blog app as a weekend project, I worked mainly with AJAX, ruby, and jQuery on this.  </p>
-                <p> <a href="#" class="btn btn-default" role="button">Check out My Blog App</a> <br><a href="https://github.com/shanemiller500/shanesblog" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></p>
+                <p> <a href="http://shanemblogapp.herokuapp.com/" class="btn btn-default" role="button">Check out My Blog App</a> <br><a href="https://github.com/shanemiller500/shanesblog" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></p>
               </div>
             </div>
           </div>
@@ -135,18 +132,6 @@
               </div>
             </div>
           </div>
-
-      <!-- <div class="col-sm-4 col-sm-offset-2">
-        <div class="thumbnail">
-          <div class="caption">
-            <h3>Adventure libary</h3>
-            <p>Adeenture libary is a app to play adventure games on, You can create your own play a localy stored game of scrape another url to play theres!</p>
-            <p> <a href="#" class="btn btn-default" role="button">Click to play Adventure Libary</a></p>
-          </div>
-        </div>
-      </div> -->
-
-
     </div>
 
   </div>
@@ -177,26 +162,3 @@
 </section>
 </div>
 
-<script>
-
-  function scrollFunc() {
-    var est = document.getElementById('est');
-    var docPos = f_scrollTop();
-    est.scrollIntoView();
-    window.scrollTo(0,docPos);
-  }
-
-  function f_scrollTop() {
-    return f_filterResults (
-      window.pageYOffset ? window.pageYOffset : 0,
-      document.documentElement ? document.documentElement.scrollTop : 0,
-      document.body ? document.body.scrollTop : 0
-      );
-  }
-
-  function f_filterResults(n_win, n_docel, n_body) {
-    var n_result = n_win ? n_win : 0;
-    if (n_docel && (!n_result || (n_result > n_docel)))
-      n_result = n_docel;
-    return n_body && (!n_result || (n_result > n_body)) ? n_body : n_result;
-  }</script>
