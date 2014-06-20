@@ -1,1 +1,0 @@
-web: bundle exec ruby index.html.erb -p $PORT
