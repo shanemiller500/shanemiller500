@@ -1,40 +1,59 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *= require_magister
- *= require_tree .
- *= require_self
- */
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*= require_magister
+*= require_tree .
+*= require_self
+*/
 
 
 /*html {
-  background:#505D6E url(../images/body4.jpg) no-repeat center center fixed; 
-  min-height:100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+background:#505D6E url(../images/body4.jpg) no-repeat center center fixed; 
+min-height:100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }*/
+
+
+
+#myDiv { 
+  height: 483px;
+  width: 1040px;
+  overflow: scroll;
+  margin-bottom: 50px;
+}
+
+#myDiv2 {
+/* background:linear-gradient(to bottom, rgba(207, 223, 129, 0.61); 
+*/  height: 483px;
+  width: 1040px;
+  overflow: scroll;
+  margin-left: 39px;
+  margin-bottom: 50px;
+}
+
 
 body {
   background: transparent;
-min-height: 100px;
-line-height: 1.5em;
-font-size: 14px;
-font-family: Helvetica, Arial, sans-serif;
-font-weight: normal;
-color: silver;
-background-image: url("me3.jpg");
-/*background-repeat: no-repeat;
-*/background-size: cover;
+  min-height: 100px;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: silver;
+  background-image: url("me3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 }
@@ -59,14 +78,14 @@ background-image: url("me3.jpg");
   border: 0 none;
   top:0px; 
   -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   outline: 0;
   opacity: 1;
   -webkit-transition: all .45s;
-     -moz-transition: all .45s;
-          transition: all .45s;
-          float: left;
+  -moz-transition: all .45s;
+  transition: all .45s;
+  float: left;
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -94,8 +113,8 @@ background-image: url("me3.jpg");
   display:block;
   opacity:0;
   -webkit-transition: all .45s;
-     -moz-transition: all .45s;
-          transition: all .45s;
+  -moz-transition: all .45s;
+  transition: all .45s;
 }
 .mainmenu .dropdown-menu .active { 
   font-weight:bold;
@@ -110,8 +129,8 @@ background-image: url("me3.jpg");
   color:white;
   text-decoration: none;
   -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 }
 .mainmenu .dropdown-menu a:hover { 
   background:rgba(255,255,255,.1);
@@ -235,8 +254,8 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   border: 0 none;
   padding:10px;
   -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 }
 .thumbnail .caption {
   color: inherit;
@@ -293,7 +312,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .theme-invert {   
   color:#222;
   color:rgba(0,0,0,.8); 
- }
+}
 .theme-invert a { 
   color:#000;
 }
@@ -332,8 +351,9 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 
 
 p {
-  color:#111111;
-  font-size: 15px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .theme-invert .btn-default {
@@ -358,7 +378,7 @@ p {
 }
 
 .theme-invert .thumbnail {
-  background-color: rgba(255, 241, 212, 0.64);
+  background-color: rgba(255, 227, 170, 0.71);
 }
 .thumbnail .caption {
   color: inherit;
