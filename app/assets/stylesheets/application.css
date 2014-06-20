@@ -34,8 +34,7 @@ background-size: cover;
 }
 
 #myDiv2 {
-/* background:linear-gradient(to bottom, rgba(207, 223, 129, 0.61); 
-*/  height: 483px;
+  height: 483px;
   width: 1040px;
   overflow: scroll;
   margin-left: 39px;
