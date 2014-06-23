@@ -28,14 +28,14 @@ background-size: cover;
 
 #myDiv { 
   height: 483px;
-  width: 1040px;
+  width: 983px;
   overflow: scroll;
   margin-bottom: 50px;
 }
 
 #myDiv2 {
   height: 483px;
-  width: 1040px;
+  width: 980px;
   overflow: scroll;
   margin-left: 39px;
   margin-bottom: 50px;
